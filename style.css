@@ -1,0 +1,176 @@
+.parent {
+    display: flex;
+    justify-content:flex-start;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 0px;
+}
+
+.parrafo {
+    margin: 0px;
+    padding-top: 80px;
+
+}
+
+body {
+    background: url(https://img.freepik.com/foto-gratis/fondo-petalo-rosa-rosa-estetica_53876-127213.jpg?w=2000);
+    border-radius: 10px;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    color: violet;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    color: black;
+    font-size: 17px;
+}
+
+ul {
+    
+    font-style: oblique;
+}
+
+li {
+    font-size: large;
+    color: darkmagenta;
+}
+
+.tratamientos-faciales {
+    background-size: contain;
+}
+
+a {
+    transition: 0s;
+    font-size: 20px;
+}
+a:hover{
+    color: blueviolet;
+    background-color: coral;
+}
+
+.ubi1 {
+    width: 700px;
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+}
+
+.llegar {
+    font-size: 30px;
+}
+
+ul li:hover {
+    transition: 0s;
+    align-items: center;
+    color: blueviolet;
+    background-color: coral;
+    
+    
+}
+.enviar {
+    background-color: black;
+    border-radius: 20px;
+    border-bottom: 20px;
+    color: white;
+}
+
+.reset {
+    background-color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    border-bottom: 20px;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.corporale,
+.faciale {
+    text-align: center;
+}
+
+img{
+    max-width: 90%;
+}
+
+
+
+a{
+    color: black;
+}
+@media screen and (min-width: 320px){
+ #navegacion{
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto;
+     grid-template-areas: "header" "parrafo""footer";
+    
+
+ }
+
+@media screen and (min-width: 1200px){
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+        grid-template-areas: "header " "parrafo" "footer";
+       
+        
+    }
+    #navegacion{
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .parrafo{
+        grid-area: parrafo;
+        justify-items: stretch;
+        align-items: stretch;
+        justify-content: start;
+    }
+    header{
+        margin: 0px;
+        padding-left: 600px;
+        font-size: 0px;
+        grid-area: header;
+    
+    }
+    footer{
+        grid-area: footer;
+    }
+    #navegacion{
+        grid-area: navegacion;
+    }
+    .menu{
+        display: inline-block;
+        padding-left: 10px;}
+        .logo1 {
+            width: 300px;
+            border-width: 0px;
+            border-color: black;
+            border-style: groove;
+            padding-left: 600px;
+        
+        }
+    }
+    
+
